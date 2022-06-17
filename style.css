@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+}
+/*Navbar*/
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fff;
+    background-position: center;
+    background-size: cover;
+    padding: 10px 10%;
+    overflow: hidden;
+}
+
+nav{
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 250px;
+
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #333;
+}
+
+.getintouch-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    margin-right: 15px;
+    padding: 14px 40px;
+    font-weight: 400;
+    background-image: linear-gradient(92.25deg, #0094DA 11.58%, #96C6F6 117.77%);
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    border-top-right-radius: 0;
+}
+
+/*Content*/
+
+h1{
+position: absolute;
+width: 766px;
+height: 54px;
+left: 337px;
+top: 250px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 54px;
+/* identical to box height */
+
+text-align: center;
+
+color: #000000;
+
+}
+
+.HeroImg{
+    position: absolute;
+width: 883px;
+height: 376px;
+left: 279px;
+top: 260px;
+
+}
+
+/*My Info*/
+
+.myimg{
+    position: absolute;
+width: 328.87px;
+height: 414.16px;
+left: 167px;
+top: 676px;
+
+}
+
+.myinfo{
+    margin-top: 50%;
+   
+ }
+
+ .myinfo h2{
+     padding: 0px 500px;
+ }
+
+ .myinfo p{
+    padding: 0px 500px;
+}
+ 
+
+
